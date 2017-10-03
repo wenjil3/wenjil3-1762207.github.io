@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<head>
+        <title>Beijing Royal School</title>
+    </head>
+      <body>
+            <h1>Beijing Royal School</h1>
+            <marquee>Hi~ Do you know our Brother FA?</marquee>
+     </body>
+</html>
+
+<p>Beijing Royal School (BRS)is a private high school located in the Changping District of Beijing, China. It was founded in 2003 by Guangfa Wang. In a 2016 ranking of Chinese high schools that send students to study in American universities, Beijing Royal School ranked number 6 in mainland China in terms of the number of students entering top American universities.</p>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<div style="text-align:center">
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmal()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420" autoplay>
+    <source src="movie.mp4" type="video=/mp4">
+    <source src="movie.ogg" type="video=/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6oQvXzmS6-g?rel=0" frameborder="0" allowfullscreen></iframe>
+<p>2 years of general secondary education, with the requirement to take the standard certifying test provided by the Beijing Education Committee. 2 years of higher level foreign education, with option of AP or A-Level Courses depending on student preferences.</p>
+<iframe src="http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3051.7286102304697!2d116.39215801520518!3d40.103763382538055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f0fe6ac606c517%3A0xc817d8ebdfc86ea5!2z5YyX5Lqs546L5bqc5a2m5qCh!5e0!3m2!1szh-CN!2scn!4v1506989662698" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<script>
+var myVideo=document.getWlementById("video1");
+
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
+}
+function makeBig() {
+    myVideo.width=560;
+}
+function makeSmall() {
+    myVideo.width=320;
+}
+function makeNormal() {
+    myVideo.width=420;
+}
+</script>
+
+<p>
+Video courtesy of <a href="https://www.youtube.com/watch?v=6oQvXzmS6-g"
+target="_blank">Beijing Royal School</a>.</p>
+
+<object classid="clsid:F08DF954-8592-11D1-B16A-00C0F0283628" id="Slider1"
+width="100" height="50">
+   <param name="BorderStyle" value="1" />
+   <param name="MousePointer" value="0" />
+   <param name="Enabled" value="1" />
+   <param name="Min" value="0" />
+   <param name="Max" value="10" />
+</object>
+
+</body>
+</html>
