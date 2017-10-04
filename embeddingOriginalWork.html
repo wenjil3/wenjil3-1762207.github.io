@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html>
-<body>
- 
 <head>
-        <title>Beijing Royal School</title>
-    </head>
-      <body>
-            <h1>Beijing Royal School</h1>
-            <marquee>Hi~ Do you know our Brother FA?</marquee>
-     </body>
-</html>
 
-<p>Beijing Royal School (BRS)is a private high school located in the Changping District of Beijing, China. It was founded in 2003 by Guangfa Wang. In a 2016 ranking of Chinese high schools that send students to study in American universities, Beijing Royal School ranked number 6 in mainland China in terms of the number of students entering top American universities.</p>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" 
+  href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body style="background-color: #750000"></body>
 
-<!DOCTYPE html>
-<html>
-<body>
-
-<div style="text-align:center">
-  <button onclick="playPause()">Play/Pause</button>
-  <button onclick="makeBig()">Big</button>
-  <button onclick="makeSmal()">Small</button>
-  <button onclick="makeNormal()">Normal</button>
-  <br><br>
-  <video id="video1" width="420" autoplay>
-    <source src="movie.mp4" type="video=/mp4">
-    <source src="movie.ogg" type="video=/ogg">
-    Your browser does not support HTML5 video.
-  </video>
+<div class="container">
+<div class="jumbotron">
+  <h1><font color="#842B00">Beijing Royal School</font></h1> 
+  <p><font color="#842B00">BRS</font></p> 
 </div>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6oQvXzmS6-g?rel=0" frameborder="0" allowfullscreen></iframe>
-<p>2 years of general secondary education, with the requirement to take the standard certifying test provided by the Beijing Education Committee. 2 years of higher level foreign education, with option of AP or A-Level Courses depending on student preferences.</p>
-<iframe src="http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3051.7286102304697!2d116.39215801520518!3d40.103763382538055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f0fe6ac606c517%3A0xc817d8ebdfc86ea5!2z5YyX5Lqs546L5bqc5a2m5qCh!5e0!3m2!1szh-CN!2scn!4v1506989662698" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+</div>
+ <marquee><h2><font color="#FFCC00">Welcome to BRS!</font></h2></marquee>
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
 <audio controls>
   <source src="horse.ogg" type="audio/ogg">
   <source src="horse.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+  
+    <h2><font color="FFD700">Introduction of BRS</font></h2>
+<p><font color="#FFFFFF">Since its establishment in 1996 as a foreign joint-venture approved by the Beijing Municipal Commission of Education, Beijing Royal Education (BRE) has been devoted to precollege,international education of the highest standard. Integrating eastern and western pedagogical techniques and resources, we have created a nurturing, challenging and diverselearning environment. We use mobile and distance learning technologies to access world class teaching resources and pedagogies from abroad and then, as is traditional in China, tailor them to the individual characteristics and aptitudes of our students,  Beijing Royal Kindergarten, Beijing Royal Foreign Language School and Beijing Royal School collectively form a K-12 continuum, providing a comprehensive education that cultivates the intellectual talents, leadership, moral integrity and international vision required to compete on a global level. .
+From 2003 to 2006, Beijing Royal School became the first school in China to introduce A-Level, A-S and IGCSE courses and established the first Cambridge International Center in Beijing. In parallel, BRS introduced a comprehensive Advanced Placement program, earning official recognition as the College Board’s only AP Demonstration School in China.</font></p>
+</div>
+  <div class="col-md-4">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/6oQvXzmS6-g?rel=0" frameborder="0" allowfullscreen></iframe>
+<p><font color="FFFFFF">
+Video courtesy of <a href="https://www.youtube.com/watch?v=6oQvXzmS6-g"
+target="_blank">Beijing Royal School</a>.</font></p>
 
+  </div>
+  <div="col-md-4">
+   <iframe src="http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3051.7286102304697!2d116.39215801520518!3d40.103763382538055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f0fe6ac606c517%3A0xc817d8ebdfc86ea5!2z5YyX5Lqs546L5bqc5a2m5qCh!5e0!3m2!1szh-CN!2scn!4v1506989662698" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+</div>
+<img src="http://image2.sina.com.cn/edu/l/2005-12-23/U275P42T4D131604F49DT20051223174301.jpg" alt="school badge" width="414" height="450"; style="position:absolute; left:50px; top:960px" />
+
+</body>
+</html>
+<br><br><br><br><br>
+  <div style="text-align:center">
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmal()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+
+  <video id="video1" width="420">
+    <source src="movie.mp4" type="video=/mp4">
+    <source src="movie.ogg" type="video=/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
 <script>
 var myVideo=document.getWlementById("video1");
 
@@ -59,19 +77,8 @@ function makeNormal() {
     myVideo.width=420;
 }
 </script>
-
-<p>
-Video courtesy of <a href="https://www.youtube.com/watch?v=6oQvXzmS6-g"
-target="_blank">Beijing Royal School</a>.</p>
-
-<object classid="clsid:F08DF954-8592-11D1-B16A-00C0F0283628" id="Slider1"
-width="100" height="50">
-   <param name="BorderStyle" value="1" />
-   <param name="MousePointer" value="0" />
-   <param name="Enabled" value="1" />
-   <param name="Min" value="0" />
-   <param name="Max" value="10" />
-</object>
+<div class="box"></div>
 
 </body>
 </html>
+
